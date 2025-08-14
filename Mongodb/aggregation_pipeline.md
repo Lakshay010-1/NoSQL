@@ -1,3 +1,4 @@
+
 <!-- Aggregation Structure -->
 db.<collection>.aggregate(
     [
