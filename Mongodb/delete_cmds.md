@@ -1,0 +1,16 @@
+
+<!-- Delete Document(s) -->
+
+1. db.<collection_name>.deleteOne(filter)                    <!-- Deletes a single matching document -->
+
+2. db.<collection_name>.deleteMany(filter)                   <!-- Deletes multiple matching documents -->
+
+
+<!-- Delete collection -->
+
+3. db.<collection_name>.drop()                               <!-- Deletes the entire collection -->
+
+
+<!-- Delete Database -->
+
+4. db.dropDatabase()                                         <!-- Deletes the current database -->
